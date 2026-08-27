@@ -69,7 +69,7 @@ body::after {
     max-width: 440px;
     margin-left: auto;
     margin-right: auto;
-    min-width: 0%;
+    min-width: 0;
     background: var(--card-bg);
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
@@ -272,7 +272,7 @@ h2.profile-name {
 }
 
 /*Tablet screens */
-@media (max-width: 768px) {
+@media (min-width: 768px) {
 
     .profile-page,
     .profile-card {
